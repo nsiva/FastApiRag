@@ -1,0 +1,91 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+venv/
+.venv/
+ENV/
+*.egg-info/
+*.egg
+build/
+dist/
+develop-eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.whl
+*.zip
+*.tar.gz
+*.tar.bz2
+*.tgz
+*.tar.xz
+
+# PyInstaller
+#  Usually these files are written to the dist folder, but if we don't have a dist folder, ignore them.
+build/
+dist/
+*.manifest
+*.spec
+
+# Poetry
+poetry.lock
+
+# Environments
+.env
+.venv
+*.swp
+*.swo
+*.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Coverage data
+.coverage
+*.coverage
+*.lcov
+
+# mypy
+.mypy_cache/
+
+# pytest cache
+.pytest_cache/
+
+# Sphinx documentation
+docs/_build/
+
+# Temp files
+*.tmp
+*.log
+*.bak
+*.orig
+*.pyc
+*.pyo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+*.iml
+
+# other files/directories that you may not want to track
+# example: data or configuration files that are specific to your local machine.
+# data/
+# config.ini
