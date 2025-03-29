@@ -3,8 +3,8 @@ from fastapi import APIRouter, HTTPException, Query
 from pydantic import BaseModel
 from typing import List, Optional
 
-from ..requests import SearchRequest
-from ..responses import SearchResponse
+from requests.search_request import SearchRequest
+from responses.search_response import SearchResponse
 
 
 router = APIRouter()
