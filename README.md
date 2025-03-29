@@ -40,3 +40,19 @@ To start the FastAPI server, run:
 
 ```sh
 uvicorn app.main:app --reload
+
+This will start the server at http://127.0.0.1:8000.
+
+## Endpoints
+Here are some of the main endpoints provided by this project:
+
+GET /: Root endpoint
+GET /items/{item_id}: Get an item by ID
+POST /items/: Create a new item
+Refer to the OpenAPI docs at http://127.0.0.1:8000/docs for a full list of endpoints and their details.
+
+## Contributing
+Contributions are welcome! Please open an issue or submit a pull request for any changes or improvements.
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
